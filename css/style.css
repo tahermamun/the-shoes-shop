@@ -8,20 +8,17 @@
     color: #363958 ;
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
-    
 }
 .sub-headline-color{
     color: #363958;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 600;
-
 }
 .text-color{
     color: #3E3E3E;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-
 }
 .btn-color{
     background: linear-gradient(to right, #3D4FF3 , #3543BC);
@@ -35,18 +32,23 @@
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
     font-weight: 800;
-    
 }
 /* Gloval Style Area Start */
 
 
-/* Main Menu Style Start */
 
+/* Main Menu Style Start */
 .brand-logo img{ 
     width: 100%;
 }
-
+.menu-color li a{
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
 /* Main Menu Style End */
+
 
 /* Hero section style start */
 .hero-section-img img{
@@ -63,25 +65,16 @@ color: #363958 ;
     color: #3E3E3E ;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-
-    }
-
-.btn-color{
-    background: linear-gradient(to right, #3D4FF3 , #3543BC);
-    color: #ffffff;
 }
-
 /* Hero section style End */
+
 
 
 /* Product section style start */
 .image-background{
     background: #F1F1F1;
     border-radius: 30px;
-    /* width: 99%; */
-
 }
-
 .card-wrapper{
     border: none;
 }
@@ -89,8 +82,9 @@ color: #363958 ;
     border: none;
     background: none;
 }
-
 /* Product section style End */
+
+
 
 /* About Section style start */
 
@@ -99,11 +93,75 @@ color: #363958 ;
 }
 .about-section-icon img{
     width: 100px;
-
 }
 /* About Section style start */
 
-/* Blog Section style Start */
+
+
+/* footer style Area Start */
+
+.footer-section{
+    background: #363958;
+    text-align: center;
+}
+.footer-address{
+    color: #ffffff;
+}
+.footer-brand-logo{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-info h3{
+    color: #ffffff;
+    font-size: 24px;
+
+}
+.footer-info-link li a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.footer-info-link li a:hover{
+    color: #FA804C;
+
+}
+.footer-info-link li{
+    list-style: none;
+
+}
+
+/* Newsletter are Start */
+
+.newsletter h3{
+    color:#ffffff;
+    font-size: 24px;
+}
+.newsletter p{
+    color:#ffffff;
+    font-size: 14px;
+}
+.newsletter input{
+    border: 2px solid #363958;
+    width: 60%;
+    border-radius: 5px;
+}
+.newsletter button{
+    width: 10%;
+    border: 0;
+    border-radius: 5px;
+    background: #FA804C;
+    color: #ffffff;
+}
+/* Newsletter are End */
+
+.footer-bottom p{
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px;
+}
 
 
 
@@ -113,4 +171,10 @@ color: #363958 ;
 
 
 
-/* Blog Section style End */
+
+
+
+/* footer style Area End */
+
+
+

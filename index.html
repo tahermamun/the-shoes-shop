@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TheShoesShop</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -26,18 +26,21 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse  justify-content-md-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="menu-color navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#product">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -64,7 +67,7 @@
 
     <main class="container">
         <!-- Product section Start-->
-        <section class="custome-margin">
+        <section id="product" class="custome-margin">
             <!-- Casual Shoes area start -->
             <div>
                 <h1 class="main-headline-color mb-4 text-md-start text-center" >CASUAL SHOES</h1>
@@ -172,7 +175,7 @@
 
 
         <!-- About section Start -->
-        <section class="custome-margin">
+        <section id="about" class="custome-margin">
             <div class="row flex-column-reverse flex-lg-row">
                 <div class="col-lg-5 pt-5">
                     <div class="row">
@@ -221,7 +224,7 @@
 
         <!-- Blog Section Start -->
 
-        <section class="custome-margin">
+        <section id="blog" class="custome-margin">
             <div>
                 <h1 class="main-headline-color text-md-start text-center">Latest Blogs__</h1>
                 <div class="card-group gap-4 p-0">
@@ -265,28 +268,32 @@
 
     </main>
     <!-- Footer Section start -->
-    <footer class="mt-5">
-        <div class="bg-dark pt-5 pb-5">
+    <footer id="contact" class="footer-section mt-5">
+        <div class="pt-5 pb-5">
             <div class="container">
-                <div class="row text-white">
-                    <div class="col brand-logo">
-                        <img src="images/Icon/Logo.png" alt="">
+                <div class="row text-white flex-column-reverse flex-lg-row">
+                    <div class="col pt-3 footer-brand-logo">
+                        <img src="images/Icon/logo-footer.png" alt="">
                         <address>
-                            <p>Address: 5 B-block Strate Road,<br>
-                                New York, United States. <br>
+                            <p class="footer-address">Address: 5 B-block Strate Road,<br>
+                                Sylhet, Bangladesh. <br>
                                 Phone: +8801752833849 <br>
-                                Info@tahermamun.com <br>
-                                www.google.com</p>
+                                Info@theshoesshop.com <br>
+                                www.theshoesshop.com</p>
                         </address>
                     </div>
-                    <div class="col">
-                        <h2>INFORMATIONS</h2>
-                        <ul>
+                    <div class="footer-info col pt-3">
+                        <h3>INFORMATIONS</h3>
+                        <ul class="footer-info-link">
                             <li><a href="#">Delivery Information</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="col">
-                        <h1>SIGN UP FOR NEWSLETTERS</h1>
+                    <div class="newsletter col pt-3">
+                        <h3>SIGN UP FOR NEWSLETTERS</h3>
                         <p>Be the First to Know. Sign up for newsletter today !</p>
                         <div>
                             <input type="email" value="">
@@ -297,9 +304,9 @@
             </div>
         </div>
 
-        <div class="footer-botom bg-info">
+        <div class="footer-bottom bg-dark">
             <div class="container ">
-                <p class="text-center">© Copyright 2021 mamun - All Rights Reserved - Powered by mamun.com.</p>
+                <p class="text-center">© Copyright 2021 ShoesShop - All Rights Reserved - Powered by theshoesshop.com.</p>
             </div>
         </div>
 
@@ -316,7 +323,7 @@
 
 
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 </html>
